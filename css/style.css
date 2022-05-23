@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4{
+    color: #FF4800;
+}
+
+
+/* Navbar Section */
+#navbar .navbar-brand{
+    font-size: 30px;
+    color: #FF4800 !important;
+}
+
+#navbar .btn{
+    background-color: #FF4800 !important;
+    border: none;
+}
+
+#navbar .navbar-nav{
+    margin-left: 28%;
+}
+
+#navbar .nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF4800 !important;
+}
+
+
+/* Top-header Section */
+#top-header .top-header-body{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/header.jpg');
+    height: 50vh;
+    background-size: cover;
+}
+
+#top-header .top-header-body h2{
+    color: #FF4800 !important;
+    padding-top: 100px;
+}
+
+#top-header .top-header-body h1{
+    font-size: 65px;
+}
+
+/* About section */
+#about-section .image{
+    background: url('../img/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 60%;
+}
+
+#about-section .about-story{
+    width: 80%;
+    margin-top: 100px;
+}
+
+/* Services Section */
+#card-section h3{
+    color: #fff;
+    background-color: #FF4800;
+}
+
+/* Choose Us Section */
+#choose-section .image-2{
+    background: url('../img/feature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 60%;
+}
+
+#choose-section .choose-story{
+    width: 80%;
+    margin-top: 100px;
+}
+
+/* Response Team*/
+#response-section .bg-card{
+    background-color: #FF4800;
+}
+
