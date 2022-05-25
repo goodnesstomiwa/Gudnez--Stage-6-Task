@@ -47,18 +47,8 @@ h4{
     font-size: 65px;
 }
 
-/* About section */
-#about-section .image{
-    background: url('../img/about.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 60vh;
-    width: 60%;
-}
-
+/* About Section */
 #about-section .about-story{
-    width: 80%;
     margin-top: 100px;
 }
 
@@ -68,23 +58,13 @@ h4{
     background-color: #FF4800;
 }
 
-/* Choose Us Section */
-#choose-section .image-2{
-    background: url('../img/feature.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 60vh;
-    width: 60%;
-}
-
 #choose-section .choose-story{
-    width: 80%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 /* Response Team*/
 #response-section .bg-card{
     background-color: #FF4800;
 }
+
 
