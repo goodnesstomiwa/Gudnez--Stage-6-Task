@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h4{
+h4 {
     color: #FF4800;
 }
 
 
 /* Navbar Section */
-#navbar .navbar-brand{
+#navbar .navbar-brand {
     font-size: 30px;
     color: #FF4800 !important;
 }
 
-#navbar .btn{
+#navbar .btn {
     background-color: #FF4800 !important;
     border: none;
 }
 
-#navbar .navbar-nav{
+#navbar .navbar-nav {
     margin-left: 28%;
 }
 
-#navbar .nav-link{
+#navbar .nav-link {
     font-size: 14px;
     font-weight: 600;
     color: #FF4800 !important;
@@ -38,79 +38,86 @@ h4{
     background-size: cover;
 }
 
-#top-header .top-header-body h2{
+#top-header .top-header-body h2 {
     color: #FF4800 !important;
     padding-top: 100px;
 }
 
-#top-header .top-header-body h1{
+#top-header .top-header-body h1 {
     font-size: 65px;
 }
 
 /* About Section */
-#about-section .about-story{
+#about-section .about-story {
     margin-top: 100px;
 }
 
 /* Services Section */
-#card-section h3{
+#card-section h3 {
     color: #fff;
     background-color: #FF4800;
 }
 
-#choose-section img{
+#choose-section img {
     height: 75vh;
     width: 90%;
 }
 
-#choose-section .choose-story{
+#choose-section .choose-story {
     margin-top: 150px;
 }
 
 /* Response Team*/
-#response-section .bg-card{
+#response-section .bg-card {
     background-color: #FF4800;
 }
 
 /* Contact Section */
-#contact-section .contact-body{
+#contact-section .contact-body {
     width: 60%;
     margin: 0 auto;
 }
 
 
-/* @media screen and (min-width: 320px) and (max-width: 426px){
+@media screen and (min-width: 320px) and (max-width: 426px){
+    .container{
+        width: 90% !important;
+    }
+
     #top-header .top-header-body{
         height: 40vh !important;
     }
 
     #top-header .top-header-body h2{
-        padding-top: 100px !important;
-        font-size: 50px !important;
+        padding-top: 65px !important;
+        font-size: 18px !important;
     }
 
     #top-header .top-header-body h1 {
-        font-size: 100px !important;
-    }
-} */
-
-@media screen and (max-width: 426px){
-    .top-header-body{
-        height: 20vh !important;
-        border: 2px solid red !important;
+        font-size: 40px !important;
     }
 
-    #top-header .top-header-body h2{
-        padding-top: 100px !important;
-        font-size: 50px !important;
+    #top-header .top-header-body p{
+        font-size: 15px !important;
     }
 
-    #top-header .top-header-body h1 {
-        font-size: 100px !important;
+    #about-section .about-story, #choose-section .choose-story{
+        margin-top: 50px !important;
     }
+
+    #choose-section img{
+        width: 100% !important;
+    }
+
+    #response-section .col{
+        width: 80% !important;
+        margin: 10px auto;
+    }
+
 }
 
-/* @media (max-width: 500px){
+
+@media screen and (min-width: 427px) and (max-width: 500px){
     .container {
         width: 90% !important;    
     }
@@ -158,6 +165,10 @@ h4{
         width: 80% !important;
     }
 
+    #about-section img{
+        width: 100% !important;
+    }
+
     #choose-section img{
         width: 100%;
     }
@@ -175,4 +186,3 @@ h4{
         margin: 10px auto;
     }
 }
- */
