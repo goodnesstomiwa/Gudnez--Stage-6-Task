@@ -79,9 +79,40 @@ h4{
 }
 
 
-@media screen and (max-width: 500px){
+/* @media screen and (min-width: 320px) and (max-width: 426px){
+    #top-header .top-header-body{
+        height: 40vh !important;
+    }
+
+    #top-header .top-header-body h2{
+        padding-top: 100px !important;
+        font-size: 50px !important;
+    }
+
+    #top-header .top-header-body h1 {
+        font-size: 100px !important;
+    }
+} */
+
+@media screen and (max-width: 426px){
+    .top-header-body{
+        height: 20vh !important;
+        border: 2px solid red !important;
+    }
+
+    #top-header .top-header-body h2{
+        padding-top: 100px !important;
+        font-size: 50px !important;
+    }
+
+    #top-header .top-header-body h1 {
+        font-size: 100px !important;
+    }
+}
+
+/* @media (max-width: 500px){
     .container {
-        width: 85% !important;    
+        width: 90% !important;    
     }
 
     #top-header .top-header-body h2{
@@ -116,7 +147,7 @@ h4{
 
 @media screen and (min-width: 501px) and (max-width: 769px){
     #top-header .top-header-body h2{
-        padding-top: 80px !important;
+        padding-top: 200px !important;
     }
 
     #top-header .top-header-body h1 {
@@ -126,9 +157,22 @@ h4{
     #contact-section .contact-body{
         width: 80% !important;
     }
+
+    #choose-section img{
+        width: 100%;
+    }
+
+    #about-section .about-story{
+        margin-top: 60px;
+    }
+
+    #choose-section .choose-story{
+        margin-top: 70px;
+    }
+
     #response-section .col{
         width: 70% !important;
         margin: 10px auto;
     }
 }
-
+ */
