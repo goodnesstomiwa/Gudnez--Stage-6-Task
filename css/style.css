@@ -80,6 +80,10 @@ h4{
 
 
 @media screen and (max-width: 500px){
+    .container {
+        width: 85% !important;    
+    }
+
     #top-header .top-header-body h2{
         padding-top: 80px !important;
     }
@@ -101,8 +105,12 @@ h4{
         width: 100%;
     }
 
+    #about-section .about-story{
+        margin-top: 60px;
+    }
+
     #choose-section .choose-story{
-        margin-top: 100px;
+        margin-top: 70px;
     }
 }
 
