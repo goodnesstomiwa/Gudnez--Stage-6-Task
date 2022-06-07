@@ -85,11 +85,11 @@ h4 {
     }
 
     #top-header .top-header-body{
-        height: 40vh !important;
+        height: 35vh !important;
     }
 
     #top-header .top-header-body h2{
-        padding-top: 65px !important;
+        padding-top: 55px !important;
         font-size: 18px !important;
     }
 
@@ -107,19 +107,19 @@ h4 {
 
     #choose-section img{
         width: 100% !important;
+        height: 50vh !important;
     }
 
     #response-section .col{
-        width: 80% !important;
+        width: 90% !important;
         margin: 10px auto;
     }
     
-     #contact-section .contact-body{
-        width: 90% !important;
+    #contact-section .contact-body{
+        width: 95% !important;
     }
 
 }
-
 
 @media screen and (min-width: 427px) and (max-width: 500px){
     .container {
